@@ -23,6 +23,8 @@ public class ContaVocali {
                 trovataInizio = true;
             }
 
+
+
             if (trovataInizio && carattere == letteraFine) {
                 if (letteraFine == 'a' || carattere == 'e' || carattere == 'i' || carattere == 'o' || carattere == 'u') {
                     numeroVocali++;
@@ -35,6 +37,7 @@ public class ContaVocali {
                     numeroVocali++;
                 }
             }
+
         }
 
         return numeroVocali;

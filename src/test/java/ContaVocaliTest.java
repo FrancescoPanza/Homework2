@@ -34,13 +34,19 @@ public class ContaVocaliTest {
     @CsvSource({
             "stringadiprova, i, o, 4 ",
             "stringadiprova, s, p, 3 ",
+
             "stringadiprova, a, v, 3",
-/*
             "stringadiprova, e, v, 0",
             "stringadiprova, i, v, 4",
             "stringadiprova, o, v, 1",
             "stringadiprova, u, v, 0",
-*/
+
+            "stringadiprova, s, a, 2",
+                           "stringadiprova, s, e, 0",
+            "stringadiprova, s, i, 1",
+            "stringadiprova, s, o, 4",
+                            "stringadiprova, t, z, 0",
+
             "stringadiprova, t, a, 2",
             " stringadiprova, t, a, 2",
             "stringa di prova, t, a, 2",
