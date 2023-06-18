@@ -6,6 +6,7 @@ public class ContaVocali {
         boolean trovataInizio = false;
         boolean trovataFine = false;
         int inizio = 0;
+        int fine = 0;
 
         input = input.toLowerCase();
         letteraInizio = Character.toLowerCase(letteraInizio);
@@ -22,16 +23,24 @@ public class ContaVocali {
             if (carattere == letteraInizio && trovataInizio == false) {
                 inizio = i;
                 trovataInizio = true;
+
             }
             if (carattere == letteraFine) {
+                fine = i;
                 trovataFine = true;
+
             }
 
 
         }
 
+        if(inizio > fine){
+            inizio = input.length();
+        }
+
         if(trovataInizio && trovataFine) {
             for (int i = inizio; i < input.length(); i++) {
+
                 char carattere = input.charAt(i);
 
                 if (Character.isLetter(carattere)) {
@@ -44,10 +53,9 @@ public class ContaVocali {
                     break;
                 }
 
-
-
             }
         }
+
             return numeroVocali;
 
     }

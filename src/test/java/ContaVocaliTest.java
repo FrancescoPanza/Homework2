@@ -1,12 +1,11 @@
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ContaVocaliTest {
     @Test
@@ -43,17 +42,23 @@ public class ContaVocaliTest {
             "stringadiprova, s, o, 4",
             "stringadiprova, t, z, 0",
 
+
+            "aeiou, a, u, 5",
+            "qwrtplmn, q, n, 0",
+            "a, a, a, 1",
             "stringadiprova, t, a, 2",
             " stringadiprova, t, a, 2",
             "stringa di prova, t, a, 2",
             "stringa di prova,' ',' ', 0",
-            "stringa di prova,' ', i, 1",
+                                    "stringa di prova,' ', i, 1",
             "stringa di prova, t,' ', 2",
             "345sfrio5656gihj96, 5, o, 2",
             "345sfrio5656gihj96i, 5, 9, 3",
             "34596, 3, 6, 0",
             "stringadiprovAdue, i, A, 2",
-            "as/jdirc@efhudfg?z#, /, @, 1"
+            "as/jdirc@efhudfg?z#, /, @, 1",
+
+            "ciao, o, c, 0"
 
     })
 
@@ -61,5 +66,10 @@ public class ContaVocaliTest {
     void testParam(String stringa, char inizio, char fine, int nroVocaliGiusto){
         assertEquals(nroVocaliGiusto, ContaVocali.conteggioVocaliSottostringa(stringa, inizio, fine));
     }
+
+
+
+
+
 
 }
