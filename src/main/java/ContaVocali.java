@@ -18,20 +18,16 @@ public class ContaVocali {
         }
 
         for (int i = 0; i < input.length(); i++) {
-
             char carattere = input.charAt(i);
             if (carattere == letteraInizio && trovataInizio == false) {
                 inizio = i;
                 trovataInizio = true;
-
             }
+
             if (carattere == letteraFine) {
                 fine = i;
                 trovataFine = true;
-
             }
-
-
         }
 
         if(inizio > fine){
@@ -40,7 +36,6 @@ public class ContaVocali {
 
         if(trovataInizio && trovataFine) {
             for (int i = inizio; i < input.length(); i++) {
-
                 char carattere = input.charAt(i);
 
                 if (Character.isLetter(carattere)) {
@@ -52,11 +47,9 @@ public class ContaVocali {
                 if (carattere == letteraFine) {
                     break;
                 }
-
             }
         }
 
             return numeroVocali;
-
     }
 }

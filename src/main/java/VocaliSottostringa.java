@@ -17,6 +17,4 @@ public class VocaliSottostringa {
 
         System.out.println("Numero di vocali nella sottostringa: " + numeroVocali);
     }
-
-
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ContaVocaliTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2023-06-19T13:14:35" hostname="MSIF" time="0.167">
+  <properties/>
+  <testcase name="[1] stringadiprova, i, o, 4" classname="ContaVocaliTest" time="0.075"/>
+  <testcase name="[2] stringadiprova, s, p, 3" classname="ContaVocaliTest" time="0.002"/>
+  <testcase name="[3] stringadiprova, a, v, 3" classname="ContaVocaliTest" time="0.002"/>
+  <testcase name="[4] stringadiprova, e, v, 0" classname="ContaVocaliTest" time="0.002"/>
+  <testcase name="[5] stringadiprova, i, v, 4" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[6] stringadiprova, o, v, 1" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[7] stringadiprova, u, v, 0" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[8] stringadiprova, s, a, 2" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[9] stringadiprova, s, e, 0" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[10] stringadiprova, s, i, 1" classname="ContaVocaliTest" time="0.002"/>
+  <testcase name="[11] stringadiprova, s, o, 4" classname="ContaVocaliTest" time="0.002"/>
+  <testcase name="[12] aeiou, a, u, 5" classname="ContaVocaliTest" time="0.002"/>
+  <testcase name="[13] qwrtplmn, q, n, 0" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[14] a, a, a, 1" classname="ContaVocaliTest" time="0.002"/>
+  <testcase name="[15] stringadiprova, t, a, 2" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[16] stringa di prova,  ,  , 0" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[17] stringa di prova,  , i, 1" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[18] stringa di prova, t,  , 2" classname="ContaVocaliTest" time="0.002"/>
+  <testcase name="[19] 345sfrio5656gihj96, 5, o, 2" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[20] 345sfrio5656gihj96, s, 5, 2" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[21] 345sfrio5656gihj96i, 5, 9, 3" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[22] 34596, 3, 6, 0" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[23] stringadiprovAdue, i, A, 2" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[24] as/jdirc@efhudfg?z#, /, @, 1" classname="ContaVocaliTest" time="0.001"/>
+  <testcase name="[25] ciao, o, c, 0" classname="ContaVocaliTest" time="0.002"/>
+  <testcase name="testEccezioneStringaVuota()" classname="ContaVocaliTest" time="0.005"/>
+  <testcase name="mancato inserimento della stringa" classname="ContaVocaliTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
